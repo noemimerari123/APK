@@ -1,0 +1,94 @@
+.titulo {
+    font-family: "Press Start 2P", "Preahvihear", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #052948;
+    margin-top: 10px;
+}
+
+#carousel {
+    width: 60%;
+    margin-left: 22%;
+}
+
+.carousel-inner img {
+    width: 70%;
+}
+
+.app lottie-player {
+    width: 60%;
+    margin-left: 30%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.azul {
+    background-color: #052948;
+    color: white;
+    height: 460px;
+    margin-top: -1px;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: relative;
+    left: 30%;
+    top: 100px;
+    width: 45%;
+    height: 250px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .web {
+        display: block;
+    }
+
+    .celu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .web {
+        display: none;
+    }
+
+    .celu {
+        display: block;
+    }
+    .app{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .qr {
+        width: 20%;
+    }
+}
+
+.footer {
+    font-weight: bold;
+}
+
+.footer p {
+    margin-bottom: 4px;
+}
+
+.row {
+    margin-left: 7%;
+}
+
+.col {
+    margin-top: 5%;
+}
